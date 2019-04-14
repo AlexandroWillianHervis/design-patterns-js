@@ -36,7 +36,7 @@ socket.subscribe("basket", message => {
 })
 
 socket.publish("test1", {
-  message: "Time a e time B"
+  message: "just a test "
 })
 
 socket.broadcast({
