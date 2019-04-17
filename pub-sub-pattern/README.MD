@@ -19,3 +19,28 @@
 - It improves testability. Channels can be monitored and messages can be inspected or logged as part of an overall integration test strategy.
 
 - It provides separation of concerns for your applications. Each application can focus on its core capabilities, while the messaging infrastructure handles everything required to reliably route messages to multiple consumers.
+
+## When to use this pattern
+
+Use this pattern when:
+
+- An application needs to broadcast information to a significant number of consumers.
+
+- An application needs to communicate with one or more independently-developed applications or services, which may use different platforms, programming languages, and communication protocols.
+
+- An application can send information to consumers without requiring real-time responses from the consumers.
+
+- The systems being integrated are designed to support an eventual consistency model for their data.
+
+- An application needs to communicate information to multiple consumers, which may have different availability requirements or uptime schedules than the sender.
+
+This pattern might not be useful when:
+
+- An application has only a few consumers who need significantly different information from the producing application.
+
+- An application requires near real-time interaction with consumers.
+
+### references
+
+ [Microsoft](https://docs.microsoft.com/en-us/azure/architecture/patterns/publisher-subscriber)
+ [Youtube - Dev Pleno - PT-BR](https://www.youtube.com/watch?v=B3YqxAFs-IQ)
