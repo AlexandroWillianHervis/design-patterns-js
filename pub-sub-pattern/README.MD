@@ -40,7 +40,7 @@ This pattern might not be useful when:
 
 - An application requires near real-time interaction with consumers.
 
-### references
+### References
 
- [Microsoft](https://docs.microsoft.com/en-us/azure/architecture/patterns/publisher-subscriber)
- [Youtube - Dev Pleno - PT-BR](https://www.youtube.com/watch?v=B3YqxAFs-IQ)
+ - [Microsoft](https://docs.microsoft.com/en-us/azure/architecture/patterns/publisher-subscriber)
+ - [Youtube - Dev Pleno - PT-BR](https://www.youtube.com/watch?v=B3YqxAFs-IQ)
